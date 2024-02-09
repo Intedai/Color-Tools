@@ -329,6 +329,8 @@ class Software():
 
 
 if __name__ == '__main__':
+    # Set working directory to the directory where the script is located
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     try:
         Software()
     except Exception as e:

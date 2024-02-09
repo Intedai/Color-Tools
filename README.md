@@ -12,6 +12,9 @@ The app offers the following tools:
 * Copying HEX, RGB, HSV with customizable formats
 * Random color generator
 
+## Assets  
+All of the assets in this project were made by me, feel free to use them in any project you want.
+
 ## Installation
 clone the repository:  
 ```bash

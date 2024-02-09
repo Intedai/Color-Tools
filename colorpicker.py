@@ -1,10 +1,11 @@
 from PIL import ImageGrab
 from pynput.keyboard import Listener as KeyboardListener
 from pynput.mouse import Controller as MouseController
-from typing import Callable, NoReturn
 from pynput.keyboard import Key
+from typing import Callable, NoReturn
 import threading
 import json
+
 from utils import *
 
 # Mouse controller to retrieve mouse position

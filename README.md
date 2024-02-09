@@ -45,13 +45,16 @@ https://github.com/Intedai/Color-Tools/assets/69306633/f639bce5-eb14-475c-824a-a
 ## Editing settings:
 ![Settings](https://github.com/Intedai/Color-Tools/assets/69306633/8039c827-0b67-4e1a-836e-c865278d7dd0)  
 You can change the color picker keybind from `k` to any alphanumeric character  
+
+You can choose if you want the HEX characters to be uppercase or lowercase by ticking the `Uppercase for HEX characters` option on or off  
   
 You can change the copy formats of every color representation:  
 `{}` is a placeholder where the first one is `R` the second one is `G` and the third one is `B` (same with HSV and HEX)  
 and then you can use the format `RGB ({}, {}, {}` for example  
   
 you can use maximum three `{}` if you use less you will only get R,G in RGB and HEX or H,S in hsv  
-if you use more than three you will get an error  
+  
+if you use more than three you will get an error:  
 ![ERROR](https://github.com/Intedai/Color-Tools/assets/69306633/d051492b-f5d3-4596-8460-3b7419f58090)
 
 ## License

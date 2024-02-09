@@ -2,6 +2,7 @@ import tkinter as tk
 import json
 from tkinter import messagebox
 import os
+
 from utils import *
 
 SETTINGS_WIDTH = 500

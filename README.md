@@ -46,7 +46,8 @@ To see how the copy formats look  at **Editing settings** below
 https://github.com/Intedai/Color-Tools/assets/69306633/f639bce5-eb14-475c-824a-acf3217ca11d
 
 ## Editing settings:
-![Settings](https://github.com/Intedai/Color-Tools/assets/69306633/8039c827-0b67-4e1a-836e-c865278d7dd0)  
+![Settings](https://github.com/Intedai/Color-Tools/assets/69306633/da93ed25-ef8f-4876-a8c1-b9da88be90c5)  
+
 You can change the color picker keybind from `k` to any alphanumeric character  
 
 You can choose if you want the HEX characters to be uppercase or lowercase by ticking the `Uppercase for HEX characters` option on or off  

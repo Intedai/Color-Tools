@@ -226,7 +226,7 @@ class Software():
             # Unfocus the Entry widget by setting focus back to the root window
             self.root.focus_set()
 
-    def copy_hex_to_clipboard(self):
+    def copy_hex_to_clipboard(self) -> NoReturn:
         """
         Copy current HEX using the copy format
         """
@@ -250,7 +250,7 @@ class Software():
         self.root.clipboard_append(hex_text)
         self.root.update()
 
-    def copy_rgb_to_clipboard(self):
+    def copy_rgb_to_clipboard(self) -> NoReturn:
         """
         Copy current RGB using the copy format
         """
@@ -262,7 +262,7 @@ class Software():
         self.root.clipboard_append(rgb_text)
         self.root.update()
 
-    def copy_hsv_to_clipboard(self):
+    def copy_hsv_to_clipboard(self) -> NoReturn:
         """
         Copy current HSV using the copy format
         """
@@ -274,7 +274,7 @@ class Software():
         self.root.clipboard_append(hsv_text)
         self.root.update()
 
-    def set_color(self, hex):
+    def set_color(self, hex) -> NoReturn:
         """
         Set current color
 
@@ -286,7 +286,7 @@ class Software():
         self.hex_input.insert(0, hex)
         self.update_from_hex_input()
 
-    def random_color(self):
+    def random_color(self) -> NoReturn:
         """
         Set random color as current color
         """
@@ -298,7 +298,7 @@ class Software():
 
         self.set_color(random_hex)
 
-    def capture_picked_color(self):
+    def capture_picked_color(self) -> NoReturn:
         """
         Use color picker and set current color to the color at the mouse position
         when the color picker key is pressed
@@ -306,7 +306,7 @@ class Software():
 
         start_capture(self.set_color)
 
-    def open_settings(self):
+    def open_settings(self) -> NoReturn:
         """
         Launch settings window
         """
@@ -314,7 +314,7 @@ class Software():
         # Launch Settings class with root as parent
         Settings(self.root)
 
-    def update_copy_formats(self):
+    def update_copy_formats(self) -> NoReturn:
         """
         Update copy formats by setting the variables to the current values
         in the settings json file

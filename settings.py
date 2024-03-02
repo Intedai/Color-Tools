@@ -139,8 +139,7 @@ class Settings():
         i = 0
         for format in list(formats.values())[:3]:
             if not validate_copy_format(format):
-                messagebox.showerror("ERROR", f"Format {keys[i]}: \"{
-                                     format}\" is not valid", parent=self.root)
+                messagebox.showerror("ERROR", f"Format {keys[i]}: \"{format}\" is not valid", parent=self.root)
                 # If format is bad set flag to false
                 fmt_is_valid = False
             i += 1
